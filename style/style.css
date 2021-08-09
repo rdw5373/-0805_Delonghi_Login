@@ -3,6 +3,7 @@
 
 /* div#headerFrame 시작 */
 #headerFrame {
+  margin-bottom: 10px;
   background-color: #0c2645;
 }
 
@@ -118,7 +119,6 @@ header#header nav#gnb li.mainLi > a {
   color: #08f;
 }
 /* 하이라이트 효과 끝 */
-
 /* nav#gnb 끝 */
 
 /* nav#headerLnb 시작 */
@@ -155,16 +155,14 @@ header#header nav#gnb li.mainLi > a {
   visibility: hidden; /* 사라지게 만듬 */
 }
 /* nav#headerLnb 끝 */
-
 /* header#header 끝 */
-
 /* div#headerFrame 끝 */
 
 /* div#subMenuBG 시작 */
 div#subMenuBG {
   width: 100%;
   height: 160px;
-  /* border: 1px solid #f00; */
+  border-bottom: 1px solid #ccc;
   background-color: #fff;
 
   display: none;
@@ -174,10 +172,73 @@ div#subMenuBG {
 
 /* div#wrap 시작 */
 div#wrap {
-  width: 1300px;
+  width: 1000px;
   height: 300px; /*임시설정*/
   margin: 0 auto;
 }
+
+/* div#locator 시작 */
+div#locator {
+  padding: 10px 20px;
+  margin-bottom: 4px;
+}
+
+#locator > * {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+/* div#locator 끝 */
+
+/* header#loginTitle 시작 */
+header#loginTitle {
+  padding: 16px;
+  /* border: 1px solid #000; */
+  margin: 14px 0 30px;
+}
+
+#loginTitle h1 {
+  font-size: 50px;
+  text-align: center;
+  /* border: 1px solid #08f; */
+}
+/* header#loginTitle 끝 */
+
+#wrap hr {
+  border-color: #000;
+}
+
+/* form#loginForm 시작 */
+#wrap form#loginForm {
+  width: 740px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#wrap #loginForm header#loginSubTitle {
+  margin-top: 40px;
+}
+
+#wrap #loginForm header h2 {
+  color: #777;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* div#multiTabArea 시작 */
+div#multiTabArea button {
+  color: #666;
+  font-size: 15px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  flex: 1;
+}
+/* div#multiTabArea 끝 */
+/* form#loginForm 끝 */
+
 /* div#wrap 끝 */
 
 /* div#footerFrame 시작 */
